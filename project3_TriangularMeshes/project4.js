@@ -75,7 +75,7 @@ class MeshDrawer
 
 		// Setup the control variables for texture binding and texture display.
 		this.hasTexture = false;
-		this.shwTexture = false;
+		this.shwTexture = true;
 
 	}
 	
