@@ -191,6 +191,9 @@ function SimTimeStep(dt, positions, velocities, springs, stiffness, damping, par
 		forces[i] = gravity.mul(particleMass);
 	}
 
+	// Figure out which particle (if any) is currently being dragged:
+  	const heldIndex = (massSpring.holdVert !== undefined) ? massSpring.selVert : -1;
+
 	// Compute spring and damping forces
 	for (let i = 0; i < springs.length; ++i) {
 		const { p0, p1, rest } = springs[i];
@@ -214,6 +217,7 @@ function SimTimeStep(dt, positions, velocities, springs, stiffness, damping, par
 
 	// Update positions and velocities
 	for (let i = 0; i < positions.length; ++i) {
+		if (i === heldIndex) continue;
 		const acceleration = forces[i].div(particleMass);
 		velocities[i] = velocities[i].add(acceleration.mul(dt));
 		positions[i] = positions[i].add(velocities[i].mul(dt));
@@ -221,6 +225,7 @@ function SimTimeStep(dt, positions, velocities, springs, stiffness, damping, par
 
 	// Handle collisions with the cube [-1,1] in each axis
 	for (let i = 0; i < positions.length; ++i) {
+		if (i === heldIndex) continue;
 		for (const axis of ['x', 'y', 'z']) {
 			if (positions[i][axis] < -1) {
 				const h = -1 - positions[i][axis];
