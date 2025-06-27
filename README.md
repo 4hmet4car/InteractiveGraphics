@@ -101,7 +101,7 @@ InteractiveGraphics/
 
 ## 📝 License
 
-This code is released under the [MIT License](LICENSE). Feel free to study, modify, and reuse for your own learning!
+This code is released under the [MIT License](LICENSE.md). Feel free to study, modify, and reuse for your own learning!
 
 ---
 
