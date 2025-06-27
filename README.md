@@ -54,6 +54,7 @@ InteractiveGraphics/
 |   ├── project7_v1.js
 |   ├── README.md
 |   └── teapot-low.obj
+└── LICENSE.md
 └── README.md
 
 ```
