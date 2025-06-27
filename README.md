@@ -109,7 +109,7 @@ This code is released under the [MIT License](LICENSE.md). Feel free to study, m
 
 **Ahmet Acar**
 
-Designer, Developer
+Designer / Developer
 
 GitHub: https://github.com/4hmet4car
 
