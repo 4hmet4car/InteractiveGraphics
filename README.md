@@ -107,7 +107,9 @@ This code is released under the [MIT License](LICENSE). Feel free to study, modi
 ## 👤 Author
 
 **Ahmet Acar**
-Designer, Developer
+
+Designer, Web Developer
+
 GitHub: https://github.com/4hmet4car
 
 ---
