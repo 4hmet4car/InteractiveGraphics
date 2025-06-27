@@ -1,6 +1,6 @@
 # Interactive Graphics, Sapienza University of Rome, 2024/2025
 
-This repository contains my solutions to all assignments for the **Interactive Graphics** course held in Sapienza University of Rome. Each homework explores a different WebGL and JavaScript graphics concept, building from basic matrix transforms to a full mass–spring simulation.
+This repository contains the solutions to all assignments for the **Interactive Graphics** course held in Sapienza University of Rome during the 2024/2025 academic year. Each homework explores a different WebGL and JavaScript graphics concept, building from basic matrix transforms to a full mass–spring simulation.
 
 ---
 
