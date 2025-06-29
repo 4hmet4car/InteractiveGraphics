@@ -88,7 +88,7 @@ InteractiveGraphics/
 
 ### Project 4 – Shading: Blinn-Phong model in GLSL.
 
-### Project 5 – Ray Tracing: CPU-based ray tracer in JavaScript.
+### Project 5 – Ray Tracing: CPU-based ray tracer in GLSL.
 
 ### Project 6 – Animations: Mass–spring simulation.
 
