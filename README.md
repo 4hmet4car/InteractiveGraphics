@@ -92,7 +92,7 @@ InteractiveGraphics/
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started: Homeworks
 
 1. **Clone the repository**
 
@@ -123,7 +123,7 @@ InteractiveGraphics/
 
 ### Project 6 – Animations: Mass–spring simulation.
 
-## ⚙️ Dependencies
+## ⚙️ Dependencies: Homeworks
 
 * **WebGL 1.0** (supported in all modern browsers)
 * No external libraries—everything is written in vanilla JavaScript and GLSL
