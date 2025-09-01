@@ -8,6 +8,37 @@ This repository contains the solutions to all assignments for the **Interactive 
 
 ```text
 InteractiveGraphics/
+├── BeyazToros
+│   ├── package.json
+│   ├── readme.md
+│   ├── src
+│   │   ├── index.html
+│   │   ├── script.js
+│   │   └── style.css
+│   ├── static
+│   │   ├── 3.jpg
+│   │   ├── bakedEnvTextureToonMagenta.jpg
+│   │   ├── BeyazTorosSceneTorosBakedOptimized.glb
+│   │   ├── CarUV1.jpg
+│   │   ├── CarUV2.jpg
+│   │   ├── CarUV3.jpg
+│   │   ├── correct.wav
+│   │   ├── draco
+│   │   │   ├── draco_decoder.js
+│   │   │   ├── draco_decoder.wasm
+│   │   │   ├── draco_encoder.js
+│   │   │   ├── draco_wasm_wrapper.js
+│   │   │   ├── gltf
+│   │   │   │   ├── draco_decoder.js
+│   │   │   │   ├── draco_decoder.wasm
+│   │   │   │   ├── draco_encoder.js
+│   │   │   │   └── draco_wasm_wrapper.js
+│   │   │   └── README.md
+│   │   ├── fail.wav
+│   │   ├── Jersey10-Regular.ttf
+│   │   ├── start.wav
+│   │   └── wrong.wav
+│   └── vite.config.js
 ├── project1_ComposingImages
 │   ├── background.png
 │   ├── project1.html
