@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyaz Toros</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <canvas class="webgl"></canvas>
+    <div id ="start">
+        <h1 id="instructions">
+            Click on the white cars<br>
+            to eliminate them.<br>
+            If you click a car of<br>
+            any other color<br>
+            or miss a white car<br>
+            you lose a life.
+        </h1>
+        <button id="button">start</button>
+    </div>
+    <h1 id="time">time: 0</h1>
+    <h1 id="life"></h1>
+    <div class="loading-screen">
+         <div id="loading-bar"></div>
+    </div>
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
