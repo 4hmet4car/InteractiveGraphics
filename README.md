@@ -4,94 +4,6 @@ This repository contains the final project "Beyaz Toros" and the solutions to al
 
 ---
 
-## 📂 Repository Structure
-
-```text
-InteractiveGraphics/
-├── BeyazToros
-│   ├── package.json
-│   ├── readme.md
-│   ├── src
-│   │   ├── index.html
-│   │   ├── script.js
-│   │   └── style.css
-│   ├── static
-│   │   ├── 3.jpg
-│   │   ├── bakedEnvTextureToonMagenta.jpg
-│   │   ├── BeyazTorosSceneTorosBakedOptimized.glb
-│   │   ├── CarUV1.jpg
-│   │   ├── CarUV2.jpg
-│   │   ├── CarUV3.jpg
-│   │   ├── correct.wav
-│   │   ├── draco
-│   │   │   ├── draco_decoder.js
-│   │   │   ├── draco_decoder.wasm
-│   │   │   ├── draco_encoder.js
-│   │   │   ├── draco_wasm_wrapper.js
-│   │   │   ├── gltf
-│   │   │   │   ├── draco_decoder.js
-│   │   │   │   ├── draco_decoder.wasm
-│   │   │   │   ├── draco_encoder.js
-│   │   │   │   └── draco_wasm_wrapper.js
-│   │   │   └── README.md
-│   │   ├── fail.wav
-│   │   ├── Jersey10-Regular.ttf
-│   │   ├── start.wav
-│   │   └── wrong.wav
-│   └── vite.config.js
-├── project1_ComposingImages
-│   ├── background.png
-│   ├── project1.html
-│   ├── project1.js
-│   ├── project1_v1.js
-│   ├── README.md
-│   ├── star.png
-│   ├── teapot.png
-│   └── u.png
-├── project2_Transformations
-│   ├── ground.jpg
-│   ├── project2.html
-│   ├── project2.js
-│   ├── propeller.png
-│   ├── README.md
-│   ├── shadow.png
-│   └── uav.png
-├── project3_TriangularMeshes
-│   ├── bricks.png
-│   ├── nyra.obj
-│   ├── nyra.png
-│   ├── obj.js
-│   ├── project4.html
-│   ├── project4.js
-│   ├── README.md
-│   └── teapot.obj
-├── project4_Shading
-│   ├── bricks.png
-│   ├── nyra.obj
-│   ├── nyra.png
-│   ├── obj.js
-│   ├── project5.html
-│   ├── project5.js
-│   ├── README.md
-│   └── teapot.obj
-├── project5_RayTracing
-│   ├── project6.html
-│   ├── project6.js
-│   └── README.md
-└── project6_Animations
-|   ├── obj.js
-|   ├── project7.html
-|   ├── project7.js
-|   ├── project7_v1.js
-|   ├── README.md
-|   └── teapot-low.obj
-└── LICENSE.md
-└── README.md
-
-```
-
----
-
 ## 🚀 Getting Started: Homeworks
 
 1. **Clone the repository**
@@ -123,16 +35,10 @@ InteractiveGraphics/
 
 ### Project 6 – Animations: Mass–spring simulation.
 
-## ⚙️ Dependencies: Homeworks
+## ⚙️ Dependencies
 
 * **WebGL 1.0** (supported in all modern browsers)
 * No external libraries—everything is written in vanilla JavaScript and GLSL
-
----
-
-## 📝 License
-
-This code is released under the [MIT License](LICENSE.md). Feel free to study, modify, and reuse for your own learning!
 
 ---
 
@@ -141,9 +47,3 @@ This code is released under the [MIT License](LICENSE.md). Feel free to study, m
 **Ahmet Acar**
 
 Designer / Developer
-
-GitHub: https://github.com/4hmet4car
-
----
-
-Happy exploring and happy coding! 🚀
